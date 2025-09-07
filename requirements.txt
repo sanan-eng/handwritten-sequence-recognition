@@ -1,0 +1,11 @@
+streamlit==1.32.0
+streamlit-drawable-canvas==0.9.3
+torch==2.2.0
+torchvision==0.17.0
+pillow==10.2.0
+numpy==1.26.4
+matplotlib==3.8.3
+opencv-python==4.9.0.80
+scikit-image==0.22.0
+pandas==2.2.1
+scipy==1.12.0
