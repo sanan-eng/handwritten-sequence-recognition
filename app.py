@@ -317,9 +317,9 @@ if img_to_use:
 
     st.subheader("Preprocessing preview")
     col1, col2, col3 = st.columns(3)
-    col1.image(proc["orig"], "Original", use_column_width=True)
-    col2.image(proc["gray"], "Gray", use_column_width=True)
-    col3.image(proc["resized"], f"Resized ({IMG_H}x{IMG_W})", use_column_width=True)
+    col1.image(proc["orig"], "Original", use_container_width=True)
+    col2.image(proc["gray"], "Gray", use_container_width=True)
+    col3.image(proc["resized"], f"Resized ({IMG_H}x{IMG_W})", use_container_width=True)
 
     st.subheader("Model inference")
     log_probs, max_conf = run_model(model, tensor)
